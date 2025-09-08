@@ -1,6 +1,7 @@
 # terraform.tfvars
 # Example values for your Terraform variables
 
+name             = "eks_cluster_sj"
 vpc_name         = "my-eks-vpc"
 cidr_block       = "10.0.0.0/16"
 azs              = ["us-west-2a", "us-west-2b", "us-west-2c"]
