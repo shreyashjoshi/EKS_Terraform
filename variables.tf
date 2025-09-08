@@ -1,6 +1,9 @@
 # variables.tf
 # Define input variables for your Terraform configuration here.
-
+variable "name" {
+description = "Name of EKS Cluster"
+type = string
+}
 variable "vpc_name" {
   description = "Name of the VPC"
   type        = string
